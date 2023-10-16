@@ -14,16 +14,16 @@
 }
 
 .user-photo-box {
-  border: 1px solid #2980b9;
-  border-radius: 8px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
   padding: 15px;
   margin-bottom: 15px;
-  background-color: #ecf0f1;
-  transition: background-color 0.3s;
+  background-color: #f7f9fc;
+  transition: background-color 0.3s ease;
 }
 
 .user-photo-box:hover {
-  background-color: #dfe4ea;
+  background-color: #eef2f7;
 }
 
 .user-photo-title {

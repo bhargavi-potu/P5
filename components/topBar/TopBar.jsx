@@ -39,7 +39,7 @@ class TopBar extends React.Component {
     return app_version ? (
       <AppBar className="topbar-appBar" position="absolute">
         <Toolbar className='topbar'>
-          <img src={base64Logo} alt="BitMasters Logo" style={{ height: '50px', marginRight: '10px' }} />
+          <img src={base64Logo} alt="BitMasters Logo" style={{ height: '60px', marginRight: '10px' }} />
           
           <Typography variant="h5" color="inherit">
              {this.props.topName}
