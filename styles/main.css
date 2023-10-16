@@ -1,15 +1,10 @@
-/*
-CSS for the project #5 main page
-
-Since CSS uses a global name space for classes we should use class names starting with
-main- here.
-*/
-
 .main-topbar-buffer {
-  margin-top: 70px;
+  margin-top: 75px;
 }
 
 .main-grid-item {
-  height: calc(100vh - 85px);
-  padding: 10px;
+  height: calc(100vh - 90px);
+  padding: 15px;
+  background-color: #f5f6fa;
+  border-radius: 8px;
 }

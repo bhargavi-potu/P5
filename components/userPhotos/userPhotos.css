@@ -1,48 +1,40 @@
-/* userPhotos.css */
-
-/* Style User Details button */
 .ButtonLink {
-  margin-bottom: 20px; /* Add margin for spacing */
+  margin-bottom: 25px;
 }
 
-/* Style User Photos header */
 .UserPhotosHeader {
-  display: block;
-  font-size: 24px; /* Increase font size */
-  margin-bottom: 10px; /* Add margin for spacing */
+  font-size: 26px;
+  color: #2c3e50;
+  margin-bottom: 15px;
 }
 
-/* Style Date Taken captions */
 .DateTaken {
-  display: block;
-  font-size: 14px; /* Decrease font size */
-  color: #666; /* Change text color */
+  font-size: 14px;
+  color: #95a5a6;
 }
 
 .user-photo-box {
-  border: 2px solid #3498db;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: #f5f5f5;
+  border: 1px solid #2980b9;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #ecf0f1;
+  transition: background-color 0.3s;
+}
+
+.user-photo-box:hover {
+  background-color: #dfe4ea;
 }
 
 .user-photo-title {
   font-weight: bold;
-  color: #3498db;
-  margin-bottom: 5px;
+  color: #2980b9;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .user-photo-value {
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.user-photo-box:first-child {
-  margin-top: 0;
-}
-
-.user-photo-box:last-child {
+  color: #2c3e50;
   margin-bottom: 10px;
 }
 
