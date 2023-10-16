@@ -9,8 +9,6 @@ import {
   Grid, Typography, Paper
 } from '@mui/material';
 import './styles/main.css';
-
-// import necessary components
 import TopBar from './components/topBar/TopBar';
 import UserDetail from './components/userDetail/userDetail';
 import UserList from './components/userList/userList';
